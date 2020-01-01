@@ -1,0 +1,35 @@
+.nav-content{
+    display: block;
+    width :100%;
+    background-color: black;
+    color:white;
+}
+
+.resp-menu-button{
+    display: none;
+    float:right;
+}
+.menu-contents{
+    float: right;
+}
+.menu-contents ul{
+    float: left;
+}
+
+.menu-contents ul li{
+    float:left;
+    width:auto
+}
+
+.menu-open{
+    display:block;
+}
+.menu-close{
+    display: none;
+}
+/*For Responsive Design*/
+@media only screen and (max-width: 600px) {
+    .resp-menu-button{
+        display: block;
+    }
+}
